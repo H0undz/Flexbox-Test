@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<META charset="UTF-8">
+	<title>Flexbox Demo Words Wrap</title>
+	<link rel="stylesheet" type="text/css" href="css/main4.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+			<nav class="flex-nav">
+				<a href="#" class="toggleNav">≡ Menu</a>
+				<ul>
+					<li><a href="index.html">Index</a></li>
+					<li><a href="demo2.html">Demo 02</a></li>
+					<li><a href="demo3.html">Demo 03</a></li>
+					<li><a href="demo4.html">Demo 04</a></li>
+					<li><a href="demo5.html">Demo 05</a></li>
+					<li><a href="demo6.html">Demo 06</a></li>
+					<li class="last"><a href="demo7.html">Demo 07</a></li>
+					<li class="social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li class="social"><a href="https://www.facebook.com/neil.antolijao" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li class="social"><a href="https://github.com/H0undz" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li class="social"><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</nav> <br>
+	</div>
+
+	<div class="elements">
+
+		<div class="items"><span>You can tell the world you never was my girl</span></div>
+		<div class="items"><span>You can burn my clothes when I'm gone</span></div>
+		<div class="items large"><span>Or you can tell your friends just what a fool I've been</span></div>
+		<div class="items"><span>And laugh and joke about me on the phone</span></div>
+
+		<div class="items"><span>You can tell my arms go back to the farm</span></div>
+		<div class="items small"><span>You can tell my feet to hit the floor</span></div>
+		<div class="items"><span>Or you can tell my lips to tell my fingertips</span></div>
+		<div class="items small"><span>They won't be reaching out for you no more</span></div>
+
+		<div class="items large"><span>But don't tell my heart my achy breaky heart</span></div>
+		<div class="items"><span>I just don't think he'd understand</span></div>
+		<div class="items small"><span>And if you tell my heart</span></div>
+		<div class="items large"><span>my achy breaky heart</span></div>
+		<div class="items"><span>He might blow up and kill this man</span></div>
+
+		<div class="items"><span>[guitar]</span></div>
+
+		<div class="items"><span>ou can tell your ma I moved to Arkansas</span></div>
+		<div class="items large"><span>You can tell your dog to bite my leg</span></div>
+		<div class="items"><span>Or tell your brother Cliff whose fist can can tell my lip</span></div>
+		<div class="items small"><span>He never really liked me anyway</span></div>
+
+		<div class="items"><span>Or tell your Aunt Louise tell anything you please</span></div>
+		<div class="items"><span>Myself already knows I'm not okay</span></div>
+		<div class="items large"><span>Or you can tell my eyes to watch out for my mind</span></div>
+		<div class="items"><span>It might be walking out on me today</span></div>
+
+		<div class="items"><span>Don't tell my heart my achy breaky heart...</span></div>
+		<div class="items"><span>[guitar]</div>
+		<div class="items"><span>Don't tell my heart my achy breaky heart...</span></div>
+		<div class="items"><span>Don't tell my heart my achy breaky heart...</span></div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('.toggleNav').on('click',function() {
+				$('.flex-nav ul').toggleClass('open');
+				
+			});
+		});
+	</script>
+</body>
+</html>
